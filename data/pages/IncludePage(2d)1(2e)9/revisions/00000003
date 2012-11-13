@@ -1,0 +1,60 @@
+<<TableOfContents>>
+= IncludePage =
+
+== Description ==
+You can use this macro to include an external page, an interwiki page or a normal wiki page through an <iframe>.
+
+== Download & Release Notes ==
+|| Download || Release Version || Moin Version || Release Notes ||
+|| [[attachment:IncludePage.py]] ||  ||  ||  ||
+
+== Usage ==
+
+{{{
+<<IncludePage(FrontPage, 800, 600)>>
+
+<<IncludePage(MoinMoin:FrontPage, 800, 600)>>
+
+<<IncludePage(http://moinmo.in, 90%, 30%)>>
+}}}
+
+You need to specify at least the page to inline and the width and the height of the iframe.
+
+Optionally you can customize ouput by using the following parameters:
+ *align=left/rigth: Aligns the frame to the left or right, text will float around [Default: no align and float]
+ *scrolling=yes/no: Turn on/off scrolling bars [Default: auto]
+ *marginwith=0: Set margin with [Default: 0]
+ *marginheight=0: Set margin height [Default: 0]
+ *frameborder=0: Set frameboarder [Default: 0]
+ *longdesc="Your text..": Give a sensible description for screenreader users [Default:""]
+    
+Warning:
+
+Using <iframe> is not compliant with HTML strict standard. Therefore a common
+markup validation service will display an "invalid html" error message for a
+wiki page using this macro.
+
+
+== Example ==
+{{{
+<<IncludePage(FrontPage, 800, 600)>>
+
+<<IncludePage(MoinMoin:FrontPage, 800, 600)>>
+
+<<IncludePage(http://moinmo.in, 90%, 30%)>>
+
+
+}}}
+
+== Copyright ==
+2008 by Oliver Siemoneit
+
+2012 by Le Quoc Viet <viet@simpleit.us>
+
+
+== License ==
+GNU GPL
+
+= Bugs =
+
+= Discussion =

@@ -1,0 +1,14 @@
+Describe LanguageSetup here.
+
+{{{
+#!/usr/bin/env python
+
+#Hey dude!
+#This is code section!
+
+call_me_maybe()
+}}}
+
+{{{#!html
+This is HTML!<p>Booo!</p>
+}}}

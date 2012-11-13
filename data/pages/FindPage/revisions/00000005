@@ -1,0 +1,11 @@
+Describe FindPage here.
+
+[[http://ten.homelinux.net/productivity/MoinMoinExtensions/parser/iframe|Moinmoin parser iframe]]
+
+{{{#!iframe
+http://ten.homelinux.net/productivity/MoinMoinExtensions/parser/iframe
+}}}
+
+{{{!#html
+<iframe src="http://petrolera.xarxa.net/inscrits.php?classe=N" _fcksavedurl=""http://petrolera.xarxa.net/inscrits.php?classe=N"" width="100%" height="600"></iframe>
+}}}

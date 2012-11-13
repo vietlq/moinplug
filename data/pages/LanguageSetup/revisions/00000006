@@ -1,0 +1,10 @@
+Describe LanguageSetup here.
+
+{{{
+#Hey dude!
+#This is code section!
+}}}
+
+{{{#!html
+This is HTML!<p>Booo!</p>
+}}}
