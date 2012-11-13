@@ -1,0 +1,4 @@
+moinplug
+========
+
+Moinmoin plug-ins
