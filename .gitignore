@@ -1,1 +1,5 @@
 *.pyc
+
+*.pid
+
+data/event-log
