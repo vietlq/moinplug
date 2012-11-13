@@ -3,3 +3,7 @@
 *.pid
 
 data/event-log
+
+data/pages/HelpContents/edit-log
+
+data/edit-log
